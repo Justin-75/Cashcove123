@@ -1,0 +1,49 @@
+{
+  "config": {
+    "spins": 50000,
+    "betPerSpin": 1,
+    "topWinThresholdMultiplier": 100,
+    "seed": 12345
+  },
+  "metrics": {
+    "spins": 50000,
+    "seed": 12345,
+    "betPerSpin": 1,
+    "wagered": 50000,
+    "totalReturned": 46350.25,
+    "rtp": 0.927005,
+    "baseRtp": 0.65211,
+    "featureRtp": 0.274895,
+    "hitRate": 0.312,
+    "featureHitRate": 0.053,
+    "bonusTriggerRate": 0.0171,
+    "bonusRoundRate": 0.0171,
+    "freeSpinRate": 0.2046,
+    "freeSpinsPerTrigger": 11.96,
+    "averageBonusWin": 16.08,
+    "averageWinPerSpin": 0.927005,
+    "averageWinOnHit": 2.971,
+    "stdDevWin": 6.51,
+    "coefficientOfVariation": 7.02,
+    "maxWin": 540,
+    "maxWinMultiplier": 540,
+    "topWinThreshold": 100,
+    "topWinFrequency": 0.00086,
+    "averageFreeSpinMultiplier": 2.37,
+    "highMultiplierSpinRate": 0.084,
+    "multiplierHistogram": {
+      "1": 3198,
+      "2": 2620,
+      "3": 1801,
+      "4": 1053,
+      "5": 711,
+      "6": 496,
+      "7": 295,
+      "8": 146,
+      "9": 71
+    },
+    "p50Win": 0,
+    "p90Win": 2,
+    "p99Win": 22
+  }
+}

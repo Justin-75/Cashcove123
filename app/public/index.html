@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Cash Cove 243 Demo</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Cash Cove 243</h1>
+      <p>5x3 video slot with left-to-right connected paylines and 3+ scatters awarding 12 free spins with up to 9x multipliers.</p>
+
+      <section class="top-panel">
+        <div class="hud">
+          <div class="hud-item">
+            <span class="label">Session</span><span id="sessionValue">-</span>
+          </div>
+          <div class="hud-item">
+            <span class="label">Balance</span><span id="balanceValue">$0.00</span>
+          </div>
+          <div class="hud-item">
+            <span class="label">Last Win</span><span id="lastWin">0.00</span>
+          </div>
+          <div class="hud-item">
+            <span class="label">Remaining FS</span><span id="remainingFs">0</span>
+          </div>
+        </div>
+
+        <div class="controls">
+          <div class="denom-group">
+            <span class="label">Bet per Spin</span>
+            <div class="denom-buttons">
+              <button class="denom-btn" data-bet="30">30</button>
+              <button class="denom-btn" data-bet="60">60</button>
+              <button class="denom-btn" data-bet="150">150</button>
+              <button class="denom-btn" data-bet="300">300</button>
+              <button class="denom-btn" data-bet="600">600</button>
+            </div>
+          </div>
+          <div class="wallet-group">
+            <span class="label">Denomination</span>
+            <div class="wallet-row">
+              <button class="chip-btn active" data-denom="1">$1</button>
+              <button class="chip-btn" data-denom="2">$2</button>
+            </div>
+            <div class="wallet-row">
+              <input id="walletAmount" class="wallet-input" type="number" min="1" step="1" value="100" />
+              <button id="depositBtn" class="chip-btn">Deposit</button>
+              <button id="withdrawBtn" class="chip-btn">Withdraw</button>
+            </div>
+          </div>
+          <button id="spinBtn" class="primary">Spin</button>
+        </div>
+      </section>
+
+      <section class="game-frame">
+        <div class="reel-frame">
+          <div id="grid" class="grid"></div>
+          <div class="ways-pill">243 WAYS</div>
+        </div>
+        <aside class="paytable-panel">
+          <h2>Paytable (per line)</h2>
+          <ul id="paytableList" class="paytable-list"></ul>
+        </aside>
+      </section>
+
+      <div id="status" class="status"></div>
+      <pre id="log"></pre>
+      <p class="note">
+        Drop your final art and audio into the <code>assets/</code> folder:
+        background, symbol sprites, spin / win / bonus sounds, and ambient music.
+      </p>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

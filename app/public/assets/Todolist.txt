@@ -1,0 +1,21 @@
+UI Overlay:
+
+1. Audio spin 
+2. Audio Scatter 
+3. Audio background scatter
+4. Audio cek cek cek reel 
+5. Background png 
+6. Reels png 
+7. Background di bersihin 
+
+
+
+RTP: Q 10 J 9 asal 3 udah bsa kena
+cek Kembali RTP, pastikan menggunakan approach normal distribution?
+F1 F2 F3 F4 ga pernah kena, kebanyakan 4 5 Q 10 J 
+Scatter chance di perbesar, tapi ga harus ada isi
+Buang logo F4 F3, langsung pake asset aja penggantinya. 
+Perhitungan win juga, kalo seandainya 5 symbol, tapi di 1 reel ada 2 logo, berarti itu 5 symbol payline * 2, coba di cek Kembali system ini, baru 
+otomatis harus adjust lagi RTP nya. 
+History log win loss per session 
+Cek apa lagi yg bisa di perbagus.
