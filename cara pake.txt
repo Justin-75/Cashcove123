@@ -1,0 +1,4 @@
+E:
+cd Cashcove123-main
+npm install
+npm run app

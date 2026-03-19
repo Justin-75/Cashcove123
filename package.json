@@ -1,0 +1,15 @@
+{
+  "name": "cashcove123",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "simulate": "node dist/simulations/runSimulation.js",
+    "app": "npm run build && node dist/app/server.js",
+    "test": "npm run build && node --test dist/tests/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
